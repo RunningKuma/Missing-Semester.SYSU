@@ -84,6 +84,19 @@
 }
 .reveal .middle h1 {
   text-align: center;
+  color: #3172aa; /* or similar blue if closer to #337ab7 */
+  font-weight: 700;
+  font-family: inherit;
+}
+.reveal .subtitle {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.reveal .date {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
 }
 .reveal h2 {
   font-size: 48px;
@@ -257,4 +270,34 @@ html.print-pdf .reveal pre code {
   top: unset !important;
   left: unset !important;
   transform: none !important;
+}
+
+.reveal .avatar-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reveal .avatar-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.reveal .avatar-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.reveal .bg-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: auto;
+    opacity: 0.15;
+    z-index: -1;
 }
