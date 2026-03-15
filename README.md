@@ -35,19 +35,47 @@
 
 使用 Makefile 来辅助预览与构建
 
-1. 安装 reveal-md
-    ```sh 
-    $ npm install -g reveal-md
-    ```
+1. 确保机器上有 Node.js 与 npm
 2. 开启本地实时预览
     ```sh
-    $ make  # or make live
+    $ cd slide/src
+    $ make live
     ```
+    - 默认监听 `127.0.0.1:1948`
+    - `Makefile` 会自动通过 `npx reveal-md` 启动，不要求全局安装
+    - 如果本机 `~/.npm` 缓存权限有问题，会自动改用 `/tmp/npm-cache`
 3. 构建静态文件
     ```sh
+    $ cd slide/src
     $ make build
     ```
     - 生成 pdf 版：在 url 后面加上 `?print-pdf` 使用浏览器打印
+
+### 远程机器预览
+
+如果你是在远程机器上开发，推荐让服务只监听远端本机，再通过 SSH 转发到你的本地浏览器：
+
+```sh
+# 远程机器
+$ cd slide/src
+$ make live PORT=1948
+```
+
+```sh
+# 本地机器
+$ ssh -L 1948:127.0.0.1:1948 <user>@<remote-host>
+```
+
+然后本地打开 `http://127.0.0.1:1948/main.md`。
+
+如果你使用的是 VS Code Remote SSH，也可以直接在 Ports 面板里转发远端 `1948` 端口。
+
+如需直接对外监听，可以显式指定：
+
+```sh
+$ cd slide/src
+$ make live HOST=0.0.0.0 PORT=1948
+```
 
 ## 用法
 

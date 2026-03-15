@@ -1,0 +1,67 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0B2744" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M0 0L14 7L0 14V0Z" fill="#6B86A4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="360" rx="30" fill="#F8FBFF"/>
+  <text x="58" y="54" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#1D3B5A">
+    Not every new tool sits on the same layer
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="170" y="242" width="940" height="84" rx="24" fill="#EAF2FB"/>
+    <text x="200" y="278" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="26" font-weight="700" fill="#16324F">
+      Coding agents
+    </text>
+    <rect x="360" y="258" width="130" height="42" rx="14" fill="#DDEAF7"/>
+    <rect x="516" y="258" width="110" height="42" rx="14" fill="#DDEAF7"/>
+    <rect x="652" y="258" width="140" height="42" rx="14" fill="#DDEAF7"/>
+    <rect x="818" y="258" width="110" height="42" rx="14" fill="#DDEAF7"/>
+    <rect x="954" y="258" width="118" height="42" rx="14" fill="#DDEAF7"/>
+    <text x="382" y="286" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#25496C">Claude Code</text>
+    <text x="546" y="286" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#25496C">Codex</text>
+    <text x="680" y="286" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#25496C">OpenCode</text>
+    <text x="844" y="286" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#25496C">Cursor</text>
+    <text x="977" y="286" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#25496C">Copilot</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="328" y="130" width="624" height="74" rx="24" fill="#FFF3E8"/>
+    <text x="360" y="166" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="26" font-weight="700" fill="#8A3E08">
+      Harness / orchestration
+    </text>
+    <rect x="682" y="146" width="236" height="42" rx="14" fill="#FFE1C8"/>
+    <text x="704" y="174" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#8A3E08">
+      oh-my-openagent
+    </text>
+    <text x="360" y="193" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" fill="#A0622E">
+      ex oh-my-opencode, multi-agent wrappers, custom roles, aggressive parallelism
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="454" y="78" width="372" height="74" rx="24" fill="#E8FBF5"/>
+    <text x="486" y="114" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="26" font-weight="700" fill="#0A4C40">
+      Remote control / gateway
+    </text>
+    <rect x="676" y="94" width="118" height="42" rx="14" fill="#CFF3E6"/>
+    <text x="704" y="122" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" font-weight="700" fill="#0A4C40">
+      OpenClaw
+    </text>
+  </g>
+
+  <line x1="640" y1="204" x2="640" y2="232" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="640" y1="152" x2="640" y2="120" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <text x="860" y="118" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" fill="#397A69">
+    Telegram / WhatsApp / Discord
+  </text>
+  <text x="430" y="340" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#59718C">
+    Think layers, not one product family.
+  </text>
+</svg>
