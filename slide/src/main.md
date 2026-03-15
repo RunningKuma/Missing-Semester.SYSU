@@ -72,7 +72,7 @@ revealOptions:
 <div class="fragment">
 <div style=" margin-top: 10px; margin-right: 10px;" markdown="1">
 
-<img src="image/main/jyy.png" width="55%" style="float: right;">
+<a href="https://nju-projectn.github.io/ics-pa-gitbook/ics2025/" target="_blank"><img src="image/main/jyy.png" width="55%" style="float: right;"></a>
 
 每个人都向往大学的新生活,但迎接你的很有可能是当头一棒：
 
@@ -324,7 +324,7 @@ wsl --install -d Ubuntu-24.04
 - Linux & MacOS 下的路径分隔符是 `/`，Windows 下是 `\`
 - 怎么没有 `C:\`？
 
-  - Windows 下有多个“根目录”，即不同“盘符”，比如 `C:\`、`D:\` 等
+  - Windows 下有多个“根目录”，即不同“盘符”，比如 `C:\`、`D:\`
   - Linux & MacOS没有分盘概念，所有的文件都挂载在唯一的根目录 `/` 下
 
 </div>
@@ -345,7 +345,7 @@ wsl --install -d Ubuntu-24.04
 | `cat` / `less`       | 查看文件内容     | `cat config.yaml`    |
 | `grep` | 文本搜索         | `grep -r "TODO" .`   |
 | `man`  | 查看命令手册     | `man grep`           |
-
+| `tldr` | 简明命令帮助   | `tldr tar`           |
 <!--v
 
 ## 管道与重定向：Shell 的魔法
@@ -486,7 +486,8 @@ python train.py > log.txt 2>&1 # 同时捕获标准输出和错误
 <div class="middle center">
 <div style="width: 100%">
 
-# Part.2 Vim、VS Code 以及远程开发
+# Part.2 VS Code、Vim、以及远程开发
+
 
 </div>
 </div>
@@ -530,7 +531,8 @@ python train.py > log.txt 2>&1 # 同时捕获标准输出和错误
 <img src="image/main/VSCode.png" alt="VSCode" style="float: right; margin-left: 20px; margin-bottom: 20px; margin-right: 20px; width: 30%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 - 看似可怕
-  - 英文界面、复杂的功能、奇奇怪怪的边栏和复杂功能...
+  - 英文界面、奇怪的边栏、复杂的功能...
+  - 怎么没法一键编译运行？
 - 实际简单
   - 2015年出生的现代编辑器, Human Friendly, 积极拥抱AI
 
@@ -570,16 +572,16 @@ python train.py > log.txt 2>&1 # 同时捕获标准输出和错误
 
 ## 插件推荐
 
-| 插件     | 用途      |
+| 插件                          | 用途                       |
 | :---------------------------- | :------------------------- |
-| **Remote - SSH**  | 远程开发必备       |
-| **Python**       | Python 开发全家桶          |
-| **C/C++**        | C/C++ 智能提示与调试       |
-| **GitLens**    | Git 增强：谁改了这行代码？ |
-| **GitHub Copilot**     | AI 代码补全     |
+| **Remote - SSH**              | 远程开发必备               |
+| **Python**                    | Python 开发全家桶          |
+| **C/C++**                     | C/C++ 智能提示与调试       |
+| **GitLens**                   | Git 增强：谁改了这行代码？ |
+| **GitHub Copilot**            | AI 代码补全                |
 | **Markdown Preview Enhanced** | Markdown 实时预览          |
-| **Error Lens**   | 行内显示错误信息           |
-| **Material Icon Theme**  | 好看的文件图标 |
+| **Error Lens**                | 行内显示错误信息           |
+| **Material Icon Theme**       | 好看的文件图标             |
 
 <div class="fragment">
 
@@ -1037,12 +1039,12 @@ Reference From 浙大竺院实用技能拾遗 by Tony Crane
 
 <div class="fragment" style="font-size: 0.8em; margin-top: 20px;">
 
-| 特征 | Typst | $\LaTeX$ |
-| :---- | :-----:| :----- |
-| 编译 | 极快，实时预览 | 慢（大文件通常需要多次编译） |
-| 语法 | 简洁直观（`1/2`） | 斜杠括号地狱（`\frac{1}{2}`） |
-| 报错 | 含报错原因位置 | 谜语人 |
-| 配置 |单一二进制文件，开箱即用|本地几个G的环境|
+| 特征 |          Typst           | $\LaTeX$                      |
+| :--- | :----------------------: | :---------------------------- |
+| 编译 |      极快，实时预览      | 慢（大文件通常需要多次编译）  |
+| 语法 |    简洁直观（`1/2`）     | 斜杠括号地狱（`\frac{1}{2}`） |
+| 报错 |      含报错原因位置      | 谜语人                        |
+| 配置 | 单一二进制文件，开箱即用 | 本地几个G的环境               |
 
 </div>
 
@@ -1471,9 +1473,14 @@ AI 会放大你的效率，也会放大你的糊弄
 
 **Shell & Linux**
 
-[中科大 Linux 101](https://101.lug.ustc.edu.cn/)
-[中科大 Linux 201进阶教程](https://201.lug.ustc.edu.cn/)
-[鸟哥的 Linux 私房菜](https://vbird.org.cn/)
+- [中科大 Linux 101](https://101.lug.ustc.edu.cn/)
+- [中科大 Linux 201进阶教程](https://201.lug.ustc.edu.cn/)
+- [鸟哥的 Linux 私房菜](https://vbird.org.cn/)
+
+其他部分：
+- Markdown CommonMark 标准文档 [spec.commonmark.org](https://spec.commonmark.org/)
+- 参考每章最后给出的Slide
+
 
 <!--v-->
 
@@ -1484,7 +1491,7 @@ AI 会放大你的效率，也会放大你的糊弄
 <img src="./msc.png" alt="MSC Logo" style="position: absolute; bottom: 20px; left: 20px; height: 100px; opacity: 0.5; z-index: 10;">
 <div class="title-slide-content" style="width: 100%; margin-top: 100px;">
 
-# 感谢各位聆听
+# 感谢各位
 
 <hr/>
 
