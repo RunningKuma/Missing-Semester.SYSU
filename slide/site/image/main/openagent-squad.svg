@@ -1,0 +1,67 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0B2744" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="420" rx="30" fill="#F7FBFF"/>
+  <text x="58" y="56" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#1D3B5A">
+    One prompt can now wake up a whole team
+  </text>
+  <text x="122" y="86" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#B37A4D">
+    plan
+  </text>
+  <text x="568" y="86" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#59718C">
+    orchestrate
+  </text>
+  <text x="1030" y="86" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#4D8A7D">
+    specialize
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="92" width="286" height="244" rx="24" fill="#FFF3E8"/>
+    <rect x="78" y="116" width="112" height="34" rx="12" fill="#FFE1C8"/>
+    <text x="102" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#8A3E08">Think first</text>
+    <text x="78" y="188" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="36" font-weight="700" fill="#8A3E08">Prometheus</text>
+    <text x="78" y="222" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#A0622E">planner / interviewer</text>
+    <text x="78" y="266" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" fill="#8B623F">- asks clarifying questions</text>
+    <text x="78" y="296" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" fill="#8B623F">- breaks work into verified steps</text>
+    <text x="78" y="326" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="20" fill="#8B623F">- never jumps into code blindly</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="386" y="74" width="470" height="280" rx="28" fill="#EAF2FB"/>
+    <text x="416" y="124" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="40" font-weight="700" fill="#16324F">Atlas</text>
+    <text x="416" y="158" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#365D82">dispatcher / verifier / routing brain</text>
+
+    <rect x="416" y="190" width="114" height="38" rx="13" fill="#D8E7F7"/>
+    <rect x="548" y="190" width="152" height="38" rx="13" fill="#D8E7F7"/>
+    <rect x="718" y="190" width="108" height="38" rx="13" fill="#D8E7F7"/>
+    <text x="452" y="215" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#25496C">ulw</text>
+    <text x="578" y="215" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#25496C">background</text>
+    <text x="752" y="215" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" font-weight="700" fill="#25496C">hooks</text>
+
+    <text x="416" y="266" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#365D82">- assigns specialists instead of one generalist</text>
+    <text x="416" y="298" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#365D82">- keeps edits anchored and plans auditable</text>
+    <text x="416" y="330" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#365D82">- turns repo rules into reusable workflow memory</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="930" y="92" width="296" height="70" rx="20" fill="#E8FBF5"/>
+    <text x="960" y="132" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#0A4C40">Hephaestus</text>
+    <text x="960" y="152" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" fill="#397A69">implementation specialist</text>
+
+    <rect x="930" y="178" width="296" height="70" rx="20" fill="#FAF8FF"/>
+    <text x="960" y="218" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#5A44A3">Oracle</text>
+    <text x="960" y="238" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" fill="#7A67B7">research / context retrieval</text>
+
+    <rect x="930" y="264" width="296" height="70" rx="20" fill="#F7FBFF"/>
+    <text x="960" y="304" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#1F4D7A">Librarian</text>
+    <text x="960" y="324" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="18" fill="#4C739B">AGENTS.md / memory upkeep</text>
+  </g>
+
+  <text x="58" y="388" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#59718C">
+    Workflow intelligence starts to matter as much as model intelligence.
+  </text>
+</svg>

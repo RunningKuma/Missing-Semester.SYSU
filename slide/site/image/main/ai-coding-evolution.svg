@@ -1,0 +1,63 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0B2744" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M0 0L14 7L0 14V0Z" fill="#6B86A4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="420" rx="30" fill="#F6FAFF"/>
+  <text x="60" y="54" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#1D3B5A">
+    2018 - 2026   From asking for code to delegating work
+  </text>
+
+  <line x1="304" y1="190" x2="346" y2="190" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="614" y1="190" x2="656" y2="190" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="924" y1="190" x2="966" y2="190" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="84" width="264" height="250" rx="24" fill="#EAF2FB"/>
+    <text x="66" y="126" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" font-weight="700" fill="#2C5A87">Prompting</text>
+    <text x="66" y="158" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="36" font-weight="700" fill="#16324F">Ask For Code</text>
+    <text x="66" y="198" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#365D82">- comments</text>
+    <text x="66" y="228" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#365D82">- pseudo code</text>
+    <text x="66" y="258" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#365D82">- copy &amp; paste</text>
+    <text x="66" y="302" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#567A9D">LLM as search engine</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="350" y="84" width="264" height="250" rx="24" fill="#E8F5FF"/>
+    <text x="376" y="126" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" font-weight="700" fill="#0D5A8B">2021 - 2023</text>
+    <text x="376" y="158" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="36" font-weight="700" fill="#083D66">Copilot</text>
+    <text x="376" y="198" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B668E">- inline completion</text>
+    <text x="376" y="228" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B668E">- AI pair programmer</text>
+    <text x="376" y="258" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B668E">- you still drive</text>
+    <text x="376" y="302" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#4D82A8">Tab becomes addictive</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="660" y="84" width="264" height="250" rx="24" fill="#E8FBF5"/>
+    <text x="686" y="126" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" font-weight="700" fill="#0E6C5D">2023 - 2025</text>
+    <text x="686" y="158" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="36" font-weight="700" fill="#0A4C40">Cursor</text>
+    <text x="686" y="198" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B6E63">- repo chat</text>
+    <text x="686" y="228" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B6E63">- multi-file edits</text>
+    <text x="686" y="258" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#2B6E63">- plan + diff review</text>
+    <text x="686" y="302" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#4D8A7D">The editor learns the repo</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="970" y="84" width="264" height="250" rx="24" fill="#FFF3E8"/>
+    <text x="996" y="126" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" font-weight="700" fill="#A85A13">2025 - 2026</text>
+    <text x="996" y="158" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="36" font-weight="700" fill="#8A3E08">Agents</text>
+    <text x="996" y="198" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#A35C2A">- search + edit + run</text>
+    <text x="996" y="228" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#A35C2A">- tests + iteration</text>
+    <text x="996" y="258" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#A35C2A">- Claude / Codex / OpenCode</text>
+    <text x="996" y="302" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#B37A4D">You delegate the workflow</text>
+  </g>
+
+  <text x="60" y="380" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#5C738D">
+    Prompt -&gt; autocomplete -&gt; codebase chat -&gt; agentic execution
+  </text>
+</svg>
