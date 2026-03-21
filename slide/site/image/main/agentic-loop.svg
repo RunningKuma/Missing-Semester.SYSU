@@ -1,0 +1,63 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0B2744" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M0 0L14 7L0 14V0Z" fill="#6B86A4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="360" rx="30" fill="#F7FBFF"/>
+  <text x="58" y="54" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="28" font-weight="700" fill="#1D3B5A">
+    A good agent loop still needs specs, evidence and review
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="46" y="96" width="206" height="176" rx="24" fill="#EAF2FB"/>
+    <text x="72" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="34" font-weight="700" fill="#16324F">1. Spec</text>
+    <text x="72" y="176" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#355A7D">goal</text>
+    <text x="72" y="206" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#355A7D">constraints</text>
+    <text x="72" y="236" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="24" fill="#355A7D">acceptance tests</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="286" y="96" width="206" height="176" rx="24" fill="#E8F5FF"/>
+    <text x="312" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="34" font-weight="700" fill="#083D66">2. Rules</text>
+    <text x="312" y="176" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B668E">AGENTS.md</text>
+    <text x="312" y="206" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B668E">CLAUDE.md</text>
+    <text x="312" y="236" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B668E">editor rules</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="526" y="96" width="206" height="176" rx="24" fill="#E8FBF5"/>
+    <text x="552" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="34" font-weight="700" fill="#0A4C40">3. Agent</text>
+    <text x="552" y="176" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B6E63">reads repo</text>
+    <text x="552" y="206" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B6E63">edits files</text>
+    <text x="552" y="236" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#2B6E63">runs commands</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="766" y="96" width="206" height="176" rx="24" fill="#FFF6E8"/>
+    <text x="792" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="34" font-weight="700" fill="#935214">4. Verify</text>
+    <text x="792" y="176" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#A0622E">build</text>
+    <text x="792" y="206" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#A0622E">lint / test</text>
+    <text x="792" y="236" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#A0622E">logs + evidence</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1006" y="96" width="228" height="176" rx="24" fill="#FCEEF5"/>
+    <text x="1032" y="138" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="34" font-weight="700" fill="#8C2A58">5. Human</text>
+    <text x="1032" y="176" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#9C4B73">review diff</text>
+    <text x="1032" y="206" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#9C4B73">approve / reject</text>
+    <text x="1032" y="236" font-family="JetBrains Mono, Ubuntu, sans-serif" font-size="22" fill="#9C4B73">iterate again</text>
+  </g>
+
+  <line x1="252" y1="184" x2="276" y2="184" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="492" y1="184" x2="516" y2="184" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="732" y1="184" x2="756" y2="184" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <line x1="972" y1="184" x2="996" y2="184" stroke="#6B86A4" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <path d="M1122 286C1122 322 1092 338 1060 338H220C150 338 102 316 102 270" stroke="#A7BED6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M103 270L85 283L106 293L103 270Z" fill="#A7BED6"/>
+</svg>
