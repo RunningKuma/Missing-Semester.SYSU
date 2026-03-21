@@ -28,6 +28,11 @@ revealOptions:
 <span class="avatar-name"> RunningKuma / 双面熊</span>
 </div>
 
+<div class="avatar-container">
+<a href="https://github.com/waltstephen"><img class="avatar-img" src="https://waltstephen.github.io/assets/img/prof_pic-800.webp" alt="avatar"></a>
+<span class="avatar-name"> WaltStephen </span>
+</div>
+
 <div class="date">2026 年 3 月</div>
 
 </div>
@@ -507,7 +512,7 @@ python train.py > log.txt 2>&1 # 同时捕获标准输出和错误
 - VSCode <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode Icon" style="height: 1.3em; margin: 0 0 0 8px; border: none; box-shadow: none; vertical-align: text-bottom; background: transparent;">
   - Microsoft 出品，开源免费，生态丰富
   - 轻量但功能强大，插件多而广，Copilot
-  - 跨平台：Windows/Mac/Linux/LoongArch
+  - 跨平台跨架构：x86/ARM/RISC-V/LoongArch
 
 - Vim <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" alt="Vim Icon" style="height: 1.3em; margin: 0 0 0 8px; border: none; box-shadow: none; vertical-align: text-bottom; background: transparent;">
   - 基于命令行的全平台文本/代码编辑器，由 Vi 发展而来
@@ -572,16 +577,17 @@ python train.py > log.txt 2>&1 # 同时捕获标准输出和错误
 
 ## 插件推荐
 
-| 插件                          | 用途                       |
+| 插件 | 用途  |
 | :---------------------------- | :------------------------- |
-| **Remote - SSH**              | 远程开发必备               |
-| **Python**                    | Python 开发全家桶          |
-| **C/C++**                     | C/C++ 智能提示与调试       |
-| **GitLens**                   | Git 增强：谁改了这行代码？ |
-| **GitHub Copilot**            | AI 代码补全                |
-| **Markdown Preview Enhanced** | Markdown 实时预览          |
-| **Error Lens**                | 行内显示错误信息           |
-| **Material Icon Theme**       | 好看的文件图标             |
+| **Remote - SSH**  | 远程开发必备    |
+| **Python**  | Python 开发全家桶  |
+| **C/C++**  | C/C++ 智能提示与调试       |
+| **GitLens**   | Git 增强：谁改了这行代码？ |
+| **GitHub Copilot**   | AI 代码补全       |
+| **Markdown Preview Enhanced** | Markdown 实时预览    |
+| **Error Lens**   | 行内显示错误信息   |
+| **Material Icon Theme**       | 好看的文件图标     |
+
 
 <div class="fragment">
 
@@ -680,7 +686,7 @@ ssh-copy-id username@server_ip #把公钥复制到服务器
 <!--v-->
 ## ♿️♿️♿️五分钟入门Vim♿️♿️♿️
 
-只需要掌握一个概念和五个按键
+只需要掌握一个概念和六个按键
 <div class="fragment">
 
 - Vim 有3（4）种模式：
@@ -1039,12 +1045,12 @@ Reference From 浙大竺院实用技能拾遗 by Tony Crane
 
 <div class="fragment" style="font-size: 0.8em; margin-top: 20px;">
 
-| 特征 |          Typst           | $\LaTeX$                      |
-| :--- | :----------------------: | :---------------------------- |
-| 编译 |      极快，实时预览      | 慢（大文件通常需要多次编译）  |
+| 特征 |   Typst   | $\LaTeX$    |
+| :--- | :-----------: | :------------ |
+| 编译 | 极快，实时预览  | 慢（大文件通常需要多次编译）  |
 | 语法 |    简洁直观（`1/2`）     | 斜杠括号地狱（`\frac{1}{2}`） |
-| 报错 |      含报错原因位置      | 谜语人                        |
-| 配置 | 单一二进制文件，开箱即用 | 本地几个G的环境               |
+| 报错 |  含报错原因位置   | 谜语人 |
+| 配置 | 单一二进制文件，开箱即用 | 本地几个G的环境    |
 
 </div>
 
@@ -1483,7 +1489,15 @@ AI 会放大你的效率，也会放大你的糊弄
 
 
 <!--v-->
+## 广告位招租
 
+- 中山大学 Matrix 团队[绝赞招新中](https://matrix.sysu.edu.cn/about/recruiting/)
+<img src="https://matrix.sysu.edu.cn/assets/images/banner-recruit-2025.png" alt="Matrix Recruiting">
+- 中山大学 W4terDr0p 战队
+- 中山大学 W4terDr0p CTF 新手赛~并非新手~ 五月初（校级竞赛）
+- [YSOS v2: 操作系统课改，用Rust手搓一个OS](https://ysos.gzti.me/)
+- [YATCC AI: 编译原理课改实验](https://yatcc-ai.com/)
+- 中山大学 Neuron Spark 人工智能挑战赛五月初（校级竞赛）
 <!--s-->
 
 <div class="middle center">
@@ -1500,6 +1514,11 @@ AI 会放大你的效率，也会放大你的糊弄
 <div class="avatar-container">
 <a href="https://github.com/RunningKuma"><img class="avatar-img" src="avatar.jpg" alt="avatar"></a>
 <span class="avatar-name"> RunningKuma / 双面熊</span>
+</div>
+
+<div class="avatar-container">
+<a href="https://github.com/waltstephen"><img class="avatar-img" src="https://waltstephen.github.io/assets/img/prof_pic-800.webp" alt="avatar"></a>
+<span class="avatar-name"> WaltStephen </span>
 </div>
 
 <div class="date">2026 年 3 月</div>
